@@ -5,7 +5,7 @@ import PaycheckProgressBar from "./components/PaycheckProgressBar";
 export default function App() {
   return (
     <View style={styles.container}>
-      <PaycheckProgressBar daysLeft={7} monthDays={30} />
+      <PaycheckProgressBar daysLeft={16} monthDays={31} />
     </View>
   );
 }
